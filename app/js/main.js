@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 
-  // Скролл в меню до блока
+       // Скролл в меню до блока
 
   var menuItems = document.querySelectorAll('.main-header-menu .item-link');
 
