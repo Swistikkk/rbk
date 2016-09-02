@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function(){
   })
 
 
+
   // Скролл в меню до блока
 
   var menuItems = document.querySelectorAll('.main-header-menu .item-link');
@@ -47,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function(){
         scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   	  }).stop(true);
   });
+
 
   // Табы
 

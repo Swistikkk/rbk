@@ -541,6 +541,78 @@ body {
         color: #999;
         margin-top: 10px; }
 
+.about-us {
+  min-height: 820px;
+  background: url("../img/house.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.contacts .content-wrapper {
+  *zoom: 1; }
+
+.contacts .content-wrapper:before, .contacts .content-wrapper:after {
+  content: "";
+  display: table; }
+
+.contacts .content-wrapper:after {
+  clear: both; }
+
+.contacts .title {
+  font-size: 36px;
+  font-family: "museo_sans_cyrl700";
+  color: #17181a;
+  margin-bottom: 18px;
+  padding-top: 75px;
+  padding-bottom: 18px; }
+  .contacts .title {
+    *zoom: 1; }
+  .contacts .title:before, .contacts .title:after {
+    content: "";
+    display: table; }
+  .contacts .title:after {
+    clear: both; }
+
+.contacts .menu {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-right: 78px; }
+  .contacts .menu:last-child {
+    margin-right: 0; }
+  .contacts .menu .item {
+    list-style: none;
+    font-size: 16px;
+    color: #000;
+    padding-left: 30px;
+    margin-bottom: 32px;
+    position: relative; }
+    .contacts .menu .item:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url("../img/contacts_icon.png") no-repeat;
+      width: 19px;
+      height: 30px; }
+    .contacts .menu .item:nth-child(2):before {
+      width: 20px;
+      height: 30px;
+      background-position: -36px 0; }
+    .contacts .menu .item-link {
+      color: #000;
+      font-size: 16px;
+      text-decoration: none; }
+  .contacts .menu--next .item:nth-child(1):before {
+    background-position: -19px 0;
+    width: 17px; }
+  .contacts .menu--next .item:nth-child(2):before {
+    background-position: -56px 0;
+    width: 15px;
+    left: 3px; }
+
+.contacts .map {
+  margin-top: 25px; }
+
 *, *:before, *:after {
   box-sizing: border-box; }
 
