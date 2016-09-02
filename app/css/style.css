@@ -512,6 +512,35 @@ body {
       width: 725px;
       vertical-align: top; }
 
+.doctors {
+  background: #f2f1f0;
+  padding-bottom: 85px; }
+  .doctors-wrapper {
+    text-align: center; }
+  .doctors h2.page-title {
+    text-align: center; }
+  .doctors-items {
+    margin-top: 35px; }
+    .doctors-items .item {
+      width: 170px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 9px; }
+      .doctors-items .item:last-child {
+        margin-right: 0; }
+      .doctors-items .item .name {
+        font-size: 18px;
+        margin-top: 18px;
+        color: #000; }
+      .doctors-items .item .who-is {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #000; }
+      .doctors-items .item .what-it-do {
+        font-size: 14px;
+        color: #999;
+        margin-top: 10px; }
+
 *, *:before, *:after {
   box-sizing: border-box; }
 

@@ -724,3 +724,50 @@ body {
     }
   }
 }
+
+
+.doctors {
+  background: #f2f1f0;
+  padding-bottom: 85px;
+
+  &-wrapper {
+    text-align: center;
+  }
+
+  h2.page-title {
+    text-align: center;
+  }
+
+  &-items {
+    margin-top: 35px;
+
+    .item {
+      width: 170px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 9px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .name {
+        font-size: 18px;
+        margin-top: 18px;
+        color: #000;
+      }
+
+      .who-is {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #000;
+      }
+
+      .what-it-do {
+        font-size: 14px;
+        color: #999;
+        margin-top: 10px;
+      }
+    }
+  }
+}
