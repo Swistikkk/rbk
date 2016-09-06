@@ -613,6 +613,69 @@ body {
 .contacts .map {
   margin-top: 25px; }
 
+.callToAction {
+  background: #f7f7f5;
+  min-height: 375px; }
+  .callToAction--wrapper {
+    margin-left: 35%;
+    min-height: 375px;
+    position: relative; }
+  .callToAction--bonus {
+    margin-top: 35px; }
+  .callToAction--action {
+    display: inline-block;
+    max-width: 133px;
+    font-size: 16px;
+    margin-left: 18px; }
+  .callToAction--price {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    font-family: "museo_sans_cyrl700";
+    color: #999999;
+    margin-top: 14px;
+    margin-left: 17px;
+    margin-right: 27px; }
+    .callToAction--price span {
+      text-transform: uppercase; }
+  .callToAction--description {
+    position: absolute;
+    bottom: 30px;
+    color: #999999;
+    display: inline-block; }
+  .callToAction--form {
+    padding-top: 30px; }
+    .callToAction--form .item {
+      max-width: 270px;
+      height: 45px;
+      border: 2px solid #d9d9d9;
+      width: 100%;
+      display: inline-block;
+      border-radius: 3px;
+      padding: 17px 20px;
+      font-size: 16px;
+      color: #000;
+      font-family: Arial;
+      margin-right: 12px; }
+      .callToAction--form .item:last-child {
+        margin-right: 12px; }
+      .callToAction--form .item::-webkit-input-placeholder {
+        font-size: 16px;
+        color: #000;
+        font-family: Arial; }
+      .callToAction--form .item::-moz-placeholder {
+        font-size: 16px;
+        color: #000;
+        font-family: Arial; }
+      .callToAction--form .item:-moz-placeholder {
+        font-size: 16px;
+        color: #000;
+        font-family: Arial; }
+      .callToAction--form .item:-ms-input-placeholder {
+        font-size: 16px;
+        color: #000;
+        font-family: Arial; }
+
 *, *:before, *:after {
   box-sizing: border-box; }
 
