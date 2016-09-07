@@ -53,31 +53,37 @@ document.addEventListener('DOMContentLoaded', function(){
   // Табы
 
   var block = document.querySelector('.composition-tabs .tabs');
-  var tabs = document.querySelectorAll('.composition-tabs .tabs tab');
+  var tabs = document.querySelectorAll('.composition-tabs .tabs .tab');
   var allTabsBlock = document.querySelectorAll('.composition-tabs .tab-block');
 
   block.addEventListener('click', (e) => {
     switch (e.target) {
       case tabs[0]:
         allTabsBlock[0].classList.add('tab-block--active');
+        allTabsBlock[1].classList.remove('tab-block--active');
+        allTabsBlock[2].classList.remove('tab-block--active');
         break;
       case tabs[1]:
         allTabsBlock[1].classList.add('tab-block--active');
+        allTabsBlock[2].classList.remove('tab-block--active');
+        allTabsBlock[0].classList.remove('tab-block--active');
         break;
       case tabs[2]:
         allTabsBlock[2].classList.add('tab-block--active');
+        allTabsBlock[1].classList.remove('tab-block--active');
+        allTabsBlock[0].classList.remove('tab-block--active');
         break;
     }
   });
 
-  // forEach(tabs, (item) => {
-  //   item.addEventListener('click', function(){
-  //     forEach(tabs, (item) => {
-  //       item.classList.remove('tab--active');
-  //     })
-  //
-  //     this.classList.add('tab--active');
-  //   });
-  // });
+  forEach(tabs, (item) => {
+    item.addEventListener('click', function(){
+      forEach(tabs, (item) => {
+        item.classList.remove('tab--active');
+      })
+
+      this.classList.add('tab--active');
+    });
+  });
 
 })

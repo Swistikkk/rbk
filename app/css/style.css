@@ -414,7 +414,10 @@ body {
         margin-right: 0; }
     .composition-tabs .tab-block {
       background: #fff;
-      padding: 40px; }
+      padding: 40px;
+      display: none; }
+      .composition-tabs .tab-block--active {
+        display: block; }
       .composition-tabs .tab-block-menu {
         width: 49%;
         display: inline-block;
@@ -637,7 +640,7 @@ body {
     margin-left: 17px;
     margin-right: 27px; }
     .callToAction--price span {
-      text-transform: uppercase; }
+      text-decoration: line-through; }
   .callToAction--description {
     position: absolute;
     bottom: 30px;

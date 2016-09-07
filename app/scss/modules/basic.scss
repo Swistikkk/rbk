@@ -591,6 +591,11 @@ body {
     .tab-block {
       background: #fff;
       padding: 40px;
+      display: none;
+
+      &--active {
+        display: block;
+      }
 
       &-menu {
         width: 49%;
@@ -901,7 +906,7 @@ body {
     margin-right: 27px;
 
     span {
-      text-transform: uppercase;
+      text-decoration: line-through;;
     }
   }
 
